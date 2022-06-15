@@ -1,7 +1,2 @@
 #!/bin/bash
-#include <stdio.h>
-c=$CFILE
-int main(void)
-{
- return (0);
-}
+export CFILE=main.c
