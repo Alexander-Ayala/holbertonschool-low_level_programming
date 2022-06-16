@@ -8,10 +8,10 @@
 int main(void)
 {
 int a = 16;
-printf("Size of variable a : %d\n", sizeof(a));
-printf("Size of variable a : %d\n", sizeof(int));
-printf("Size of variable a : %d\n", sizeof(char));
-printf("Size of variable a : %d\n", sizeof(float));
-printf("Size of variable a : %d\n", sizeof(double));
+printf("Size of a char: %1d byte(s)\n", sizeof(char));
+printf("Size of an int: %4d byte(s)\n", sizeof(int));
+printf("Size of a long int: %8d byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %1d\n", sizeof(long long int));
+printf("Size of a float: %1d\n", sizeof(float));
 return (0);
 }
