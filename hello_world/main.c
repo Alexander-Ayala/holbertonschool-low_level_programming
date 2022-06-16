@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* runs a C file preprocessor and save the result into another file*/
+
 /**
  * main - Entry point
  *
@@ -7,5 +7,6 @@
  */
 int main(void)
 {
-return (0);
+	printf("Holberton School");
+	return (0);
 }
