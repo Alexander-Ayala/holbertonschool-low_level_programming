@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- *main - imprima alfabeto
- *return: zero
+ * main - imprima alfabeto
+ * 2 putchar
+ * Return: zero
  *
  */
-int main(void) /**main abecedario  */
+int main(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
