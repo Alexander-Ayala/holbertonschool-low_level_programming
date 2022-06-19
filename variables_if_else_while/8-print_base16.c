@@ -8,7 +8,7 @@
 int main(void)
 {
 int i = 0;
-while (i <= 16)
+while (i <= 15)
 {
 printf("%x", i);
 i = i + 1;
