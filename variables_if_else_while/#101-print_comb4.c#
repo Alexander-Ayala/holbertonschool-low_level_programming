@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - imprima numeros con 3 digitosigits
+ * main - imprima numeros con 3 digitos
+ *putchar
  * Return: Always 0 (Success)
  *
  */
