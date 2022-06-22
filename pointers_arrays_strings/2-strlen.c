@@ -4,6 +4,7 @@
 * _strlen - change values integedr
 * @*s: pointer string
 * @s: string
+* Return: length
 **/
 int _strlen(char *s)
 {
