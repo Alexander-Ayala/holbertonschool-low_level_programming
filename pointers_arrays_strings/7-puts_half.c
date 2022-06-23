@@ -19,6 +19,10 @@ if (i % 2 == 0)
 {
 half = i / 2;
 }
+else
+{
+half = (i - 1) / 2;
+}
 while (half < i)
 {
 _putchar(*(str + half));
