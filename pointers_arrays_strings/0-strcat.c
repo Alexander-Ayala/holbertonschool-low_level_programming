@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * _strcat - concatenates two strings
-* @dest: destination 
+* @dest: destination
 * @src: source string initial
 * Return: dest
 **/
@@ -14,7 +14,7 @@ while (*(dest + i))
 {
 i++;
 }
- while ((*(dest + i) = *(src + j)))
+while ((*(dest + i) = *(src + j)))
 {
 i++;
 j++;
