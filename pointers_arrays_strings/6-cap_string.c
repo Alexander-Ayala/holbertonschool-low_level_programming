@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- *
- * string_toupper - alphabet minusculkas a mayusculas
- * @s: string alphabet
- * Return: Alphabet uppercase
+ * cap_string - palabras con mayusculas
+ * @c: string uppercase
+ * Return:  uppercase
  */
 char *cap_string(char *c)
 {
