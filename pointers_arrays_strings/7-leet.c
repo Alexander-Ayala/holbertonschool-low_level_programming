@@ -2,7 +2,7 @@
 
 /**
  * leet - codiing string 1337
- * @s: string
+ * @c: string
  * Return: coding c
  */
 char *leet(char *c)
