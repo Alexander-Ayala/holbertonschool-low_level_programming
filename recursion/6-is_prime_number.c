@@ -1,24 +1,27 @@
 #include "main.h"
 /**
- * otra - auxiliar
- * @n: variable number integer
- * @a: raiz
- * Return: raiz n
+ * is_prime_number - function
+ * @n: integer
+ * @a: rpimo
+ * Return: number primo
  */
-int otra(int n, int a)
+int is_prime_number(int n)
 {
-	if (a * a == n)
-		return (a);
-	else if (a * a < n)
-		return (otra(n, ++a));
-	return (-1);
+	if (n <= 1)
+		return (0);
+	return (otra(n, n - 1));
 }
 /**
- * _sqrt_recursion - natural square root of a number
- * @n: variable number integer
- * Return: sqrt
+ * otra - function
+ * @n: variable integer
+ * @a: variable value
+ * Return: otra
  */
-int _sqrt_recursion(int n)
+int otra(int n int a)
 {
-	return (otra(n, 0));
+	if (a == 1)
+		return (1);
+	if (n % a == 0 && a > 0)
+		return (0);
+	return (otra(n, a - 1));
 }
