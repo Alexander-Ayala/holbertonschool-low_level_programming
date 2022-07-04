@@ -5,23 +5,24 @@
  * @a: rpimo
  * Return: number primo
  */
+int primo(int n, int a);
 int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return (otra(n, n - 1));
+	return (primo(n, n - 1));
 }
 /**
- * otra - function
+ * primo - function
  * @n: variable integer
  * @a: variable value
- * Return: otra
+ * Return: primo
  */
-int otra(int n int a)
+int primo(int n, int a)
 {
 	if (a == 1)
 		return (1);
 	if (n % a == 0 && a > 0)
 		return (0);
-	return (otra(n, a - 1));
+	return (primo(n, a - 1));
 }
