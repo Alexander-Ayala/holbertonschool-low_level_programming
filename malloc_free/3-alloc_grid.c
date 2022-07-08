@@ -14,8 +14,8 @@ int **matrix;
 if (height <= 0 || width <= 0)
 return (NULL);
 matrix = (int **)malloc(height * sizeof(int *));
-if(!matrix)
-	return (NULL);
+if (!matrix)
+return (NULL);
 a = 0;
 while (a < width)
 {
