@@ -14,7 +14,7 @@ char *sc = NULL;
 int a, b;
 if (s1 == NULL)
 	s1 = "";
-if (s1 == NULL)
+if (s2 == NULL)
 	s2 = "";
 len = strlen(s1) + strlen(s2);
 sc = malloc(sizeof(*sc) * len + 1);
@@ -24,7 +24,7 @@ for (a = 0; s1[a] != '\0'; a++)
 	sc[a] = s1[a];
 for (b = 0; s2[b] != '\0'; a++, b++)
 	sc[a] = s2[b];
-sc[a + 1] = '\0';
+sc[a] = '\0';
 free(sc);
 return (sc);
 }
