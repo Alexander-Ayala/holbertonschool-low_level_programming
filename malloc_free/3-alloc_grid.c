@@ -16,6 +16,7 @@ return (NULL);
 matrix = (int **)malloc(height * sizeof(int *));
 if (!matrix)
 {
+free(matrix);
 return (NULL);
 }
 a = 0;
@@ -26,6 +27,7 @@ a++;
 }
 if (width <= 0 || height <= 0)
 {
+free(a);
 return (NULL);
 }
 i = 0;
