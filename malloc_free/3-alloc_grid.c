@@ -15,7 +15,9 @@ if (height <= 0 || width <= 0)
 return (NULL);
 matrix = (int **)malloc(height * sizeof(int *));
 if (!matrix)
+{
 return (NULL);
+}
 a = 0;
 while (a < width)
 {
@@ -23,7 +25,9 @@ matrix[a] = (int *)malloc(width * sizeof(int));
 a++;
 }
 if (width <= 0 || height <= 0)
-return (0);
+{
+return (NULL);
+}
 i = 0;
 j = 0;
 while (i < height)
