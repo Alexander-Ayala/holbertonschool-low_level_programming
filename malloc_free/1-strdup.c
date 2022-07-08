@@ -12,7 +12,7 @@ unsigned int i = 0, len;
 char *scpy = NULL;
 len = strlen(str);
 scpy = malloc(sizeof(char) * len + 1);
-if (scpy == NULL)
+if (scpy == NULL || str == NULL)
 	return (NULL);
 i = 0;
 while (str[i] != '\0')
