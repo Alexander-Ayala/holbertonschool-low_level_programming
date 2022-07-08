@@ -27,7 +27,6 @@ a++;
 }
 if (width <= 0 || height <= 0)
 {
-free(a);
 return (NULL);
 }
 i = 0;
