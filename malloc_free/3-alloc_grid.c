@@ -13,7 +13,8 @@ int i, j, a;
 int **matrix;
 if (height <= 0 || width <= 0)
 return (NULL);
-matrix = (int **) malloc(width * sizeof(int *));
+len = strlen(matrix);
+matrix = (int **) malloc(sizeof(int *) * len + 1);
 a = 0;
 while (a < width)
 {
