@@ -8,9 +8,10 @@
  */
 char *_strdup(char *str)
 {
-unsigned int i = 0;
+unsigned int i = 0, len;
 char *scpy = NULL;
-scpy = malloc(sizeof(str));
+len = strlen(str);
+scpy = malloc(sizeof(char) * len + 1);
 if (scpy == NULL)
 	return (NULL);
 i = 0;
