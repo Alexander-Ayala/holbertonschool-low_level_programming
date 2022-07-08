@@ -20,4 +20,5 @@ scpy[i] = str[i];
 i++;
 }
 return (scpy);
+free(scpy);
 }
