@@ -19,7 +19,7 @@ return (NULL);
 a = 0;
 while (a < width)
 {
-matrix[a] = (int *) malloc(width * sizeof(int));
+matrix[a] = (int *)malloc(width * sizeof(int));
 a++;
 }
 if (width <= 0 || height <= 0)
