@@ -10,9 +10,11 @@ char *_strdup(char *str)
 {
 unsigned int i = 0, len;
 char *scpy = NULL;
+if (str == NULL)
+	return (NULL);
 len = strlen(str);
 scpy = malloc(sizeof(char) * len + 1);
-if (scpy == NULL || str == NULL)
+if (scpy == NULL)
 	return (NULL);
 i = 0;
 while (str[i] != '\0')
@@ -21,5 +23,4 @@ scpy[i] = str[i];
 i++;
 }
 return (scpy);
-free(scpy);
 }
