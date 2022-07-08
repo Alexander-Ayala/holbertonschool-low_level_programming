@@ -25,6 +25,7 @@ for (a = 0; s1[a] != '\0'; a++)
 for (b = 0; s2[b] != '\0'; a++, b++)
 	sc[a] = s2[b];
 sc[a] = '\0';
-return (sc);
+sc[a + 1] = '\0';
 free(sc);
+return (sc);
 }
