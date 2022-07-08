@@ -21,7 +21,7 @@ matrix[a] = (int *) malloc(height * sizeof(int));
 a++;
 }
 if (width <= 0 || height <= 0)
-return (0);
+return (NULL);
 i = 0;
 j = 0;
 while (i < width)
