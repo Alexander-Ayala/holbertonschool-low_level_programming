@@ -26,9 +26,9 @@ if (width <= 0 || height <= 0)
 return (0);
 i = 0;
 j = 0;
-while (i < width)
+while (i < height)
 {
-while (j < height)
+while (j < width)
 {
 matrix[i][j] = 0;
 j++;
