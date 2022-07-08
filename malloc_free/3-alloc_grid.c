@@ -24,7 +24,6 @@ while (a < width)
 {
 matrix[a] = (int *)malloc(width * sizeof(int));
 a++;
-free(matrix);
 }
 if (width <= 0 || height <= 0)
 {
