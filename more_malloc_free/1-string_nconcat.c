@@ -27,6 +27,6 @@ sc[a] = s1[a];
 for (b = 0; a < len; a++, b++)
 sc[a] = s2[b];
 sc[a + 1] = '\0';
-return (sc);
 free(sc);
+return (sc);
 }
