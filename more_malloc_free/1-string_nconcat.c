@@ -12,9 +12,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int a, b, len = 0;
 char *sc = 0;
-if (s1 == 0)
+if (s1 == NULL)
 s1 = "";
-if (s1 == 0)
+if (s2 == NULL)
 s2 = "";
 if (strlen(s2) <= n)
 n = strlen(s2);
@@ -27,6 +27,5 @@ sc[a] = s1[a];
 for (b = 0; a < len; a++, b++)
 sc[a] = s2[b];
 sc[a + 1] = '\0';
-free(sc);
 return (sc);
 }
