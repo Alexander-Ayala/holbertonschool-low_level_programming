@@ -9,7 +9,7 @@
  */
 int **alloc_grid(int width, int height)
 {
-int i, j, a;
+int i, j;
 int **matrix;
 if (height <= 0 || width <= 0)
 return (NULL);
