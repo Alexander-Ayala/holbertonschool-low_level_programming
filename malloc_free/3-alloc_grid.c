@@ -13,37 +13,24 @@ int i, j, a;
 int **matrix;
 if (height <= 0 || width <= 0)
 return (NULL);
-matrix = (int **)malloc(height * sizeof(int *));
+matrix = malloc(height * sizeof(int));
 if (!matrix)
-{
-return (NULL);
-}
-a = 0;
-while (a < width)
-{
-matrix[a] = (int *)malloc(width * sizeof(int));
-a++;
-}
-if (matrix == NULL)
 {
 free(matrix);
 return (NULL);
 }
-if (width <= 0 || height <= 0)
+for (i = 0; i < height; i++)
 {
+matrix[i] = malloc(width * sizeof(int));
+if (!matrix)
+{
+free(matrix);
 return (NULL);
 }
-i = 0;
-j = 0;
-while (i < height)
-{
-while (j < width)
+for (j = 0; j < width; j++)
 {
 matrix[i][j] = 0;
-j++;
 }
-j = 0;
-i++;
 }
 return (matrix);
 free(matrix);
