@@ -11,7 +11,7 @@
 int *array_range(int min, int max)
 {
 int *pointer, i, tam, len;
-if (min > max)
+if (min >= max)
 return (NULL);
 tam = (max - min);
 for (len = 0; len < tam; len++)
