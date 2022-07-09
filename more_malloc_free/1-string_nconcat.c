@@ -19,7 +19,7 @@ s2 = "";
 if (strlen(s2) <= n)
 n = strlen(s2);
 len = strlen(s1) + n;
-sc = malloc(sizeof(*sc) * len + 1);
+sc = malloc(sizeof(*sc) * (len + 1));
 if (!sc)
 return (NULL);
 for (a = 0; s1[a] != '\0'; a++)
