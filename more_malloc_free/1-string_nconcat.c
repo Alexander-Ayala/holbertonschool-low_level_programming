@@ -21,10 +21,10 @@ n = strlen(s2);
 len = strlen(s1) + n;
 sc = malloc(sizeof(*sc) * len + 1);
 if (!sc)
-return (0);
+return (NULL);
 for (a = 0; s1[a] != '\0'; a++)
 sc[a] = s1[a];
-for (b = 0; a < len; a++, b++)
+for (b = 0; s2[b] ! = '\0' && a < len; a++, b++)
 sc[a] = s2[b];
 sc[a + 1] = '\0';
 return (sc);
