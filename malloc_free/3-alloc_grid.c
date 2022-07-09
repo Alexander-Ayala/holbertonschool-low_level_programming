@@ -41,4 +41,5 @@ j = 0;
 i++;
 }
 return (matrix);
+free(matrix);
 }
