@@ -10,16 +10,14 @@
  */
 int *array_range(int min, int max)
 {
-int *pointer, i, tam, len;
-if (min >= max)
+int *pointer, i, tam;
+if (min > max)
 return (NULL);
 tam = (max - min);
-for (len = 0; len < tam; len++)
-	;
-pointer = malloc(sizeof(int ) * (len + 1));
+pointer = malloc(sizeof(int) * (tam + 1));
 if (pointer == NULL)
 return (NULL);
-for (i = 0; i < len; i++)
+for (i = 0; i <= tam; i++)
 {
 pointer[i] = min++;
 }
