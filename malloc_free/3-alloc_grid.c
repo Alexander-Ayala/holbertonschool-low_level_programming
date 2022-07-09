@@ -16,7 +16,6 @@ return (NULL);
 matrix = (int **)malloc(height * sizeof(int *));
 if (!matrix)
 {
-free(matrix);
 return (NULL);
 }
 a = 0;
@@ -42,4 +41,3 @@ j = 0;
 i++;
 }
 return (matrix);
-}
