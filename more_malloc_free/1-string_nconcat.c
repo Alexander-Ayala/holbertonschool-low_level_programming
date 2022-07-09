@@ -28,6 +28,6 @@ for (a = 0; s1[a] != '\0'; a++)
 sc[a] = s1[a];
 for (b = 0; s2[b] != '\0' && a < len; a++, b++)
 sc[a] = s2[b];
-sc[a + 1] = '\0';
+sc[a] = '\0';
 return (sc);
 }
