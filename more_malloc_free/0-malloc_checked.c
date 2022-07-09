@@ -12,7 +12,7 @@ void *c;
 c = malloc(b);
 if (c == NULL)
 {
-	printf("%d", 98);
+	exit (98);
 }
 return (c);
 }
