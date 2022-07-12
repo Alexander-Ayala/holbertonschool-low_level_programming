@@ -16,7 +16,7 @@ while (argv[i][j])
 {
 if (isdigit(argv[i][j]))
 {
-printf("error\n");
+printf("Error\n");
 return (1);
 }
 j++;
