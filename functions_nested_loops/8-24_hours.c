@@ -10,7 +10,7 @@ for (m = 0; m <= 59; m++)
 n = (h / 10);
 a = (h % 10);
 b = (m / 10);
-c = (m / % 10);
+c = (m % 10);
 _putchar(n + 48);
 _putchar(a + 48);
 _putchar(':');
