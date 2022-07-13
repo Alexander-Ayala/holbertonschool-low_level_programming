@@ -11,7 +11,7 @@ if (d != NULL)
 if (d->name == NULL)
 {
 printf("Name: (nil)\n");
-printf("Age: (nil)\n");
+printf("Age: %f\n", d->age);
 }
 else
 {
