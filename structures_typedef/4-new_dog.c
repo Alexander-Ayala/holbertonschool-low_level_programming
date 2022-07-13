@@ -22,6 +22,7 @@ return (NULL);
 }
 for (len_name = 0; name[len_name]; len_name++)
 ;
+len_name += 1;
 dog_cpy->name = malloc(sizeof(char) * len_name);
 if (dog_cpy->name == NULL)
 {
@@ -30,6 +31,7 @@ return (NULL);
 }
 for (len_owner = 0; owner[len_owner]; len_owner++)
 ;
+len_owner += 1;
 dog_cpy->owner = malloc(sizeof(char) * len_owner);
 if (dog_cpy->owner == NULL)
 {
