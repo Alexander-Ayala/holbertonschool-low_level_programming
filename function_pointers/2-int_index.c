@@ -4,6 +4,7 @@
  * @array: elements
  * @size: elemnents array
  * @cmp: comparacion
+ * Return: signen 1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
