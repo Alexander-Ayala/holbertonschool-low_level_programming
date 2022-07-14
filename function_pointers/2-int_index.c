@@ -11,7 +11,7 @@ int n;
 if (size > 0 && array && cmp)
 {
 for (n = 0; n < size; n++)
-	if (cmp(arary[n]))
+	if (cmp(array[n]))
 		return (n);
 }
 return (-1);
