@@ -1,4 +1,5 @@
-#include "calc.h"
+#include "3-calc.h"
+#include <stdio.h>
 /**
  * main - run calc
  * @argc: type character
