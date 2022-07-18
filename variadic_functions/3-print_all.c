@@ -12,9 +12,9 @@ unsigned int i, a;
 char *s;
 va_start(c, format);
 while (format && format[i])
-}
+{
 if (a)
-printf(", ")
+printf(", ");
 switch (format[i])
 {
 case 'c':
@@ -35,7 +35,7 @@ break;
 }
 printf("%p", s);
 break;
-defaul:
+default:
 a = 0;
 i++;
 continue;
