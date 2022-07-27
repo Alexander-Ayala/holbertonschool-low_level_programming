@@ -13,14 +13,10 @@ s = h;
 for (i = 0; s; i++)
 {
 if (s == NULL)
-{
 printf("[0] (nil)\n");
-}
 else
-{
 printf("[%u] %s\n", s->len, s->str);
 s = s->next;
-}
 }
 return (i);
 }
