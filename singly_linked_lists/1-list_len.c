@@ -12,7 +12,7 @@ unsigned int i;
 for (i = 0; h; i++)
 {
 
-s = h->next;
+h = h->next;
 }
 return (i);
 }
