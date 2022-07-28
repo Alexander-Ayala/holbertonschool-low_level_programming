@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_list - print all elements of list
+ * list_len - count elements of list_t
  * @h: pointer node
- * Return: node
+ * Return: number
  */
 size_t list_len(const list_t *h)
 {
@@ -12,7 +12,7 @@ unsigned int i;
 for (i = 0; h; i++)
 {
 
-h = h->next;
+s = h->next;
 }
 return (i);
 }
