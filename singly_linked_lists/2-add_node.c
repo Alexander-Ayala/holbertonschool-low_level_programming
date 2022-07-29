@@ -24,4 +24,5 @@ newnode->next = (*head);
 (*head) = newnode;
 
 return (*head);
+free(*head);
 }
